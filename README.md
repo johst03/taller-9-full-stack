@@ -2,16 +2,19 @@
 
 <h2>Información</h2>
 <p>Curso: Full Stack Basico - Grupo 1</p>
-<p>Profesor: Cristian</p>
+<p>Profesor: Cristian Patiño</p>
 
 <h2>Link de la pagina</h2>
+<a href="https://johst03.github.io/taller-9-full-stack/">Link pagina web</a>
 
 <h2>Punto 1: Link de Figma</h2>
 <a href="https://www.figma.com/file/ArE5mDvAhi0wBTxIeaXulN/Johan-Stick-Rodriguez-Rodriguez?type=design&node-id=0%3A1&mode=design&t=TTiN5QhyNASURSHb-1">Link de Figma</a>
 
 <h2>Punto 2: Diseño en HTML</h2>
+<img src="public/images/punto_2.png" alt="Diseño html">
 
 <h2>Punto 3: Diseño en CSS</h2>
+<img src="public/images/punto_3.png" alt="Diseño css">
 
 <h2>Punto 4: Titulos</h2>
 

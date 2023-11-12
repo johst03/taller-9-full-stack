@@ -1,0 +1,84 @@
+@import url("https://indestructibletype.com/fonts/Jost.css");
+@import url("header-styles.css");
+@import url("banner-styles.css");
+@import url("section-1-styles.css");
+@import url("section-2-styles.css");
+@import url("footer-styles.css");
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Jost';
+    box-sizing: border-box;
+}
+
+html, body {
+    scroll-behavior: smooth;
+}
+
+.container {
+    margin: 0 100px;
+    max-width: 1150px;
+}
+
+li {
+    list-style: none;
+}
+
+p, a, span, button, input {
+    font-size: 14px;
+}
+
+button {
+    border-radius: 10px;
+    padding: 10px 30px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.btn_orange {
+    color: #ffffff;
+    padding: 10px 17.5px;
+    background-color: #FD909E;
+    border: 1px solid #FD909E;
+    transition: ease-out .4s;
+}
+
+.btn_orange:hover {
+    background-color: #fc7086;
+    border-color: #fc7086;
+}
+
+.section-1, 
+.section-2{
+    padding: 70px 110px;
+}
+
+footer p,
+footer button,
+footer a,
+footer h4 {
+    color: #ffffff;
+}
+
+.item-flecha {
+    width: 45px;
+    height: 45px;
+    padding: 5px;
+    border-radius: 50%;
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+    background-color: #ffffff;
+    border: 1px solid #cdcdcd;
+}
+
+.item-flecha img {
+    width: 100%;
+}
+
+@media screen and (min-width: 1150px) {
+    .container {
+        margin: auto;
+    }
+}
