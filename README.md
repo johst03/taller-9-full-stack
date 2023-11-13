@@ -29,3 +29,4 @@
 <img src="public/images/punto_7-8.png" alt="Titulos">
 
 <h2>Punto 9: Tabla</h2>
+<img src="public/images/punto_9.png" alt="Titulos">
