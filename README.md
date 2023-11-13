@@ -17,10 +17,13 @@
 <img src="public/images/punto_3.png" alt="Diseño css">
 
 <h2>Punto 4: Titulos</h2>
+<img src="public/images/punto_4.png" alt="Titulos">
 
 <h2>Punto 5: Parrafo</h2>
+<img src="public/images/punto_5.png" alt="Parrafo">
 
 <h2>Punto 6: Links</h2>
+<img src="public/images/punto_6.png" alt="Links">
 
 <h2>Punto 7 y 8: Titulos</h2>
 
