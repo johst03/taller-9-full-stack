@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+
+header {
+	position: fixed;
+	left: 0;
+	top: 0;
+	right: 0;
+	background-color: #2f1793;
+	color: #ffffff;
+	padding: 20px 200px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+nav {
+	display: flex;
+	align-items: center;
+}
+
+nav ul{
+	display: flex;
+	gap: 20px;
+}
+
+li {
+	list-style: none;
+}
+
+a {
+	color: #ffffff;
+	font-size: 15px;
+	text-decoration: none;
+	position: relative;
+	padding: 6px;
+}
+
+a::before {
+    content: "";
+    display: block;
+    position: absolute;
+    background-color: #ffffff;
+    height: 3px;
+    width: 0;
+    bottom: 0;
+    left: 50%;
+	transition-property: background-color, left, width;
+	transition-duration: 0s, .4s, .4s;
+}
+
+a:hover::before {
+    width: 100%;
+    left: 0;
+}
+
+a:active {
+	color: #0de7d9;
+}
+
+a:active::before {
+	background-color: #0de7d9;
+}
+
+.navbar_btn {
+	display: flex;
+	align-items: center;
+	gap: 15px;
+}
+
+button {
+	padding: 8px 24px;
+	cursor: pointer;
+	font-size: 14px;
+	color: #ffffff;
+	border-radius: 50px;
+	transition: all .4s;
+}
+
+.btn_login {
+	border: 1px solid #cdcdcd;
+	background-color: transparent;
+}
+
+.btn_sign-up {
+	border: 1px solid #0de7d9;
+	background-color: #0de7d9;
+}
+
+.btn_sign-up:hover {
+	background-color: #00d5ca;
+	border-color: #00d5ca;
+}
